@@ -23,14 +23,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E96D35A1
 		build\build.yml = build\build.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "src\Day01\Day01.csproj", "{53FE812C-6756-459C-9DB9-8B7942F7960D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01", "src\Day01\Day01.csproj", "{53FE812C-6756-459C-9DB9-8B7942F7960D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1340A918-9DCC-41A3-921D-FB6C4C288E0D}"
 	ProjectSection(SolutionItems) = preProject
 		AdventOfCode2020.sln.DotSettings = AdventOfCode2020.sln.DotSettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "src\Day02\Day02.csproj", "{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02", "src\Day02\Day02.csproj", "{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03", "src\Day03\Day03.csproj", "{443151C3-402D-4BFB-8758-AD2822068479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443151C3-402D-4BFB-8758-AD2822068479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443151C3-402D-4BFB-8758-AD2822068479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443151C3-402D-4BFB-8758-AD2822068479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443151C3-402D-4BFB-8758-AD2822068479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{E96D35A1-98D9-48EB-8B8F-93F99B5CBC83} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
 		{53FE812C-6756-459C-9DB9-8B7942F7960D} = {EE9CB063-93B0-49F8-B61C-39F841A22D5D}
 		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C} = {EE9CB063-93B0-49F8-B61C-39F841A22D5D}
+		{443151C3-402D-4BFB-8758-AD2822068479} = {EE9CB063-93B0-49F8-B61C-39F841A22D5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64BE185C-ABBF-409F-BC59-5D22D52E4C8B}

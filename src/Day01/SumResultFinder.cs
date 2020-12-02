@@ -66,7 +66,7 @@ namespace Day01
         {
             unchecked
             {
-                Span< (int, int, int)> pairs = stackalloc (int, int, int)[100];
+                Span<(int, int, int)> pairs = stackalloc (int, int, int)[100];
                 int pairsLength = 0;
 
                 fixed (int* fixedNumbers = numbers)
