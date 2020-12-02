@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{B3A255A0-E95E-4143-83BA-2ABA54951F9C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		Template.DotSettings = Template.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE9CB063-93B0-49F8-B61C-39F841A22D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{47C6088F-B1F4-40E7-846E-05EF34FCB6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E1546E7C-A3D0-448D-8B0E-613EC15E5CFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E96D35A1-98D9-48EB-8B8F-93F99B5CBC83}"
+	ProjectSection(SolutionItems) = preProject
+		build\azure-pipelines.yml = build\azure-pipelines.yml
+		build\build.ps1 = build\build.ps1
+		build\build.yml = build\build.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE9CB063-93B0-49F8-B61C-39F841A22D5D} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
+		{47C6088F-B1F4-40E7-846E-05EF34FCB6D8} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
+		{E1546E7C-A3D0-448D-8B0E-613EC15E5CFB} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
+		{E96D35A1-98D9-48EB-8B8F-93F99B5CBC83} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64BE185C-ABBF-409F-BC59-5D22D52E4C8B}
+	EndGlobalSection
+EndGlobal

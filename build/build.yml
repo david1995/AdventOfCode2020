@@ -1,0 +1,47 @@
+parameters:
+  name: ''
+  pool: ''
+  nugetVersion: 5.8.0
+  sdkVersion: 5.0.100
+  artifactFileName: ''
+
+jobs:
+- job: ${{ parameters.name }}
+  pool: ${{ parameters.pool }}
+  steps:
+  - task: NuGetToolInstaller@0
+    displayName: 'Use NuGet'
+    inputs:
+      versionSpec: ${{ parameters.nugetVersion }}
+
+  - task: DotNetCoreInstaller@0
+    displayName: 'Use .NET Core'
+    inputs:
+      version: ${{ parameters.sdkVersion }}
+
+  - task: PowerShell@2
+    displayName: 'build Debug'
+    inputs: 
+      filePath: build/build.ps1
+      workingDirectory: ./
+      arguments: Debug
+
+  - task: PowerShell@2
+    displayName: 'build Release'
+    inputs: 
+      filePath: build/build.ps1
+      workingDirectory: ./
+      arguments: Release
+
+  - task: ArchiveFiles@2
+    displayName: 'Archive $(Build.SourcesDirectory)'
+    inputs:
+      rootFolderOrFile: '$(Build.SourcesDirectory)'
+      archiveFile: ${{ parameters.artifactFileName }} 
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: Template-CI-BuildResult'
+    inputs:
+      PathtoPublish: ${{ parameters.artifactFileName }} 
+      artifactType: container
+      ArtifactName: 'Template-CI-BuildResult'
