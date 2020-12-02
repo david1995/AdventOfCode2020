@@ -8,7 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{B3A255A0
 		.gitignore = .gitignore
 		LICENSE = LICENSE
 		README.md = README.md
-		Template.DotSettings = Template.DotSettings
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE9CB063-93B0-49F8-B61C-39F841A22D5D}"
@@ -24,7 +23,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E96D35A1
 		build\build.yml = build\build.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "src\Day01\Day01.csproj", "{53FE812C-6756-459C-9DB9-8B7942F7960D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1340A918-9DCC-41A3-921D-FB6C4C288E0D}"
+	ProjectSection(SolutionItems) = preProject
+		AdventOfCode2020.sln.DotSettings = AdventOfCode2020.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "src\Day02\Day02.csproj", "{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53FE812C-6756-459C-9DB9-8B7942F7960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FE812C-6756-459C-9DB9-8B7942F7960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FE812C-6756-459C-9DB9-8B7942F7960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FE812C-6756-459C-9DB9-8B7942F7960D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -33,6 +55,8 @@ Global
 		{47C6088F-B1F4-40E7-846E-05EF34FCB6D8} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
 		{E1546E7C-A3D0-448D-8B0E-613EC15E5CFB} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
 		{E96D35A1-98D9-48EB-8B8F-93F99B5CBC83} = {B3A255A0-E95E-4143-83BA-2ABA54951F9C}
+		{53FE812C-6756-459C-9DB9-8B7942F7960D} = {EE9CB063-93B0-49F8-B61C-39F841A22D5D}
+		{232C0AAA-081D-41CA-BC87-FAE06D57EF3C} = {EE9CB063-93B0-49F8-B61C-39F841A22D5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64BE185C-ABBF-409F-BC59-5D22D52E4C8B}
