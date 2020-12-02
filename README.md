@@ -1,2 +1,1 @@
-# DotNetTemplateRepo
-My template repo for .NET Repos
+# Advent of Code 2020
