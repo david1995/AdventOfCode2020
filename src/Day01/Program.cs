@@ -27,7 +27,6 @@ namespace Day01
 
         public static void FindTuplets(Stopwatch stopwatch, int[] numbers)
         {
-
             int times = 1000;
 
             DoFullTestRun(
@@ -63,7 +62,6 @@ namespace Day01
 
         public static void FindTriplets(Stopwatch stopwatch, int[] numbers)
         {
-
             int times = 1000;
 
             Console.WriteLine();
